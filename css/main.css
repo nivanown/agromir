@@ -482,7 +482,7 @@ body {
 /* form-promo */
 .form-promo form { 
   display: grid;
-  grid-template-columns: 350px 378px;
+  grid-template-columns: 350px 380px;
   gap: 25px 10px;
   }
 
@@ -551,6 +551,7 @@ input[type='password']::-webkit-input-placeholder {
   padding: 20px 50px;
   color: #fff;
   font-size: 20px;
+  font-weight: 500;
   line-height: 30px;
   background: #f58f0b;
   box-shadow: 0 20px 40px rgba(223, 126, 0, 0.15), 
