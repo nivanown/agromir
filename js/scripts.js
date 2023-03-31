@@ -31,3 +31,48 @@
     input.addEventListener("blur", mask, false);
     input.addEventListener("keydown", mask, false);
 });
+
+/*- tabs -*/
+const tabs = document.querySelectorAll('[data-tab-target]')
+const tabContents = document.querySelectorAll('[data-tab-content]')
+
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+        const target = document.querySelector(tab.dataset.tabTarget)
+        tabContents.forEach(tabContent => {
+            tabContent.classList.remove('active')
+        })
+        tabs.forEach(tab => {
+            tab.classList.remove('active')
+        })
+        tab.classList.add('active')
+        target.classList.add('active')
+    })
+})
+
+/*- accordion -*/
+const accordionContent = document.querySelectorAll('.accordion__content');
+const accordion = document.querySelectorAll('.accordion__top-panel');
+
+accordion.forEach((element) => {
+    element.addEventListener('click', () => {
+        element.classList.toggle('active');
+        let panel = element.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + 'px';
+        }
+    });
+});
+
+/*- letters__slider -*/
+var swiper = new Swiper('.letters__slider .swiper', {
+    autoHeight: true,
+    spaceBetween: 20,
+    loop: true,
+    navigation: {
+        nextEl: '.letters__slider .swiper-button-next, .letters__btn',
+        prevEl: '.letters__slider .swiper-button-prev',
+    },
+});
