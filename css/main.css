@@ -2176,10 +2176,13 @@ input[type='password']::-webkit-input-placeholder {
   margin: 0 0 60px;
   }
 
+.types-delivery_indent-bottom-none { 
+  margin: 0;
+  }
+
 .types-delivery__item { 
   padding: 40px;
   border: 1px solid #e0e0e0;
-  background: #f7f7f7;
   border-radius: 30px;
   }
 
@@ -3240,4 +3243,30 @@ input[type='password']::-webkit-input-placeholder {
 .footer__link:hover { 
   color: #ff7b00;
   border-color: #ff7b00;
+  }
+
+/* hystmodal */
+button.hystmodal__shadow--show { 
+  opacity: 0.8;
+  }
+
+.hystmodal .hystmodal__window { 
+  padding: 80px;
+  max-width: 1360px;
+  width: 100%;
+  border-radius: 30px;
+  }
+
+/* hystmodal__close */
+.hystmodal .hystmodal__close { 
+  width: 17px;
+  height: 17px;
+  right: -31px;
+  background: url(../img/bg/close-icon.svg) center no-repeat;
+  background-size: 100%;
+  transition: .3s opacity;
+  }
+
+.hystmodal .hystmodal__close:hover { 
+  opacity: 0.8;
   }

@@ -76,3 +76,15 @@ var swiper = new Swiper('.letters__slider .swiper', {
         prevEl: '.letters__slider .swiper-button-prev',
     },
 });
+
+/*- modal -*/
+const myModal = new HystModal({
+    closeOnEsc: true,
+    backscroll: true,
+    afterClose: function(modal){
+        let videoframe = modal.openedWindow.querySelector('iframe');
+        if(videoframe){
+            videoframe.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+        }
+    },        
+});

@@ -10,6 +10,7 @@
     <meta name="keywords" content="" /> 
     
     <link rel="stylesheet" href="css/main.css" media="all"/>
+    <link rel="stylesheet" href="css/hystmodal.min.css" media="all"/>
     <link rel="stylesheet" href="css/swiper-bundle.min.css" media="all"/>
     <link rel="stylesheet" href="css/responsive.css" media="all"/>
 
@@ -36,7 +37,7 @@
                             <img src="img/src/delivery-img.png" alt="photo">
                         </div>
                         <div class="delivery-header__description">
-                            <a href="#">Доставка по всей РФ<br> Склад в г. Набережные Челны</a>
+                            <a href="#" data-hystmodal="#delivery">Доставка по всей РФ<br> Склад в г. Набережные Челны</a>
                         </div>
                     </div>
                     <a class="header__mail mail" href="mailto:agromir716@mail.ru">
@@ -247,13 +248,53 @@
         <!-- footer end -->
     </div>   
     <!-- wrapper end -->
-    
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=55930e2b-c598-4ddf-8a0d-22064a3d1d6e&lang=ru_RU"></script>
 
+    <!-- delivery modal Start -->
+    <div class="hystmodal center-modal" id="delivery" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <button class="hystmodal__close" data-hystclose>Закрыть</button>
+                <div class="hystmodal__styled">
+                    <h2 class="title-main">Доставим на ваш адрес точно в срок</h2>
+                    <p class="subtitle">Компенсируем стоимость за каждый день просрочки</p>
+                    <div class="shipment">
+                        <div class="shipment__description">
+                            <h3 class="shipment__title">Отгрузка позиций из<br> складской программы<br> в течение рабочего дня</h3>
+                            <p>Срок доставки позиций на заказ от 7 до 10 дней</p>
+                            <a href="#" class="shipment__btn btn">Получить каталог моделей<br> из складской программы</a>
+                        </div>
+                    </div>
+                    <div class="types-delivery types-delivery_indent-bottom-none">
+                        <div class="types-delivery__item">
+                            <div class="types-delivery__icon">
+                                <img src="img/src/types-delivery-icon-1.svg" alt="icon">
+                            </div>
+                            <p><strong>Доставка собственным транспортом</strong> по г. Набережные Челны в течение 1 дня</p>
+                        </div>
+                        <div class="types-delivery__item">
+                            <div class="types-delivery__icon">
+                                <img src="img/src/types-delivery-icon-2.svg" alt="icon">
+                            </div>
+                            <p><strong>Доставка до транспортной компании</strong> при отправке по России в течение 3 часов</p>
+                        </div>
+                        <div class="types-delivery__item">
+                            <div class="types-delivery__icon">
+                                <img src="img/src/types-delivery-icon-3.svg" alt="icon">
+                            </div>
+                            <p><strong>Доступен самовывоз со склада:</strong> г. Набережные Челны, Казанский проспект, 215/1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- delivery modal end -->
+    
     <!-- jQuery libs -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
 
     <!-- Plugin scripts -->
+    <script type="text/javascript" src="js/hystmodal.min.js"></script>
     <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
 
     <!-- Scripts -->
