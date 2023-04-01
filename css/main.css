@@ -1450,7 +1450,7 @@ input[type='password']::-webkit-input-placeholder {
   text-align: left;
   }
 
-.delivery-rare__main-title img { 
+.title-main img { 
   display: inline-block;
   vertical-align: middle;
   }
@@ -1563,6 +1563,7 @@ input[type='password']::-webkit-input-placeholder {
   color: #131313;
   font-size: 18px;
   line-height: 30px;
+  cursor: pointer;
   }
 
 .accordion__checkbox input:checked + label { 
@@ -3256,6 +3257,7 @@ button.hystmodal__shadow--show {
   }
 
 .hystmodal .hystmodal__window { 
+  position: relative;
   padding: 80px;
   max-width: 1360px;
   width: 100%;
@@ -3270,6 +3272,11 @@ button.hystmodal__shadow--show {
 #catalog-form .hystmodal__window { 
   padding: 0;
   max-width: 1200px;
+  }
+
+#promo-code .hystmodal__window { 
+  padding: 60px 85px;
+  max-width: 1000px;
   }
 
 /* hystmodal__close */
@@ -3363,5 +3370,68 @@ button.hystmodal__shadow--show {
 /* callback__btn */
 .callback__btn { 
   padding: 35px 35px;
+  width: 100%;
+  }
+
+.promo-code__title { 
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px;
+  }
+
+.promo-code__title span { 
+  display: inline-block;
+  padding: 10px 35px;
+  vertical-align: top;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  background: #f58f0b;
+  border-radius: 16px;
+  }
+
+.promo-code__subtitle { 
+  margin: 0 0 38px;
+  }
+
+.promo-code__form { 
+  max-width: 380px;
+  }
+
+.promo-code__form fieldset { 
+  margin: 0 0 20px;
+  }
+
+.promo-code__form fieldset:nth-child(2) { 
+  margin: 0 0 10px;
+  }
+
+.promo-code__form fieldset:nth-child(3) {
+  margin: 0 0 28px;
+  } 
+
+.promo-code__form fieldset:nth-child(4) {
+  display: flex;
+  justify-content: center;
+  }
+
+.promo-code__form fieldset:last-child { 
+  margin: 0;
+  }
+
+.promo-code__btn { 
+  padding: 35px 35px;
+  width: 100%;
+  }
+
+.promo-code__img { 
+  position: absolute;
+  width: 420px;
+  right: 80px;
+  bottom: 0;
+  }
+
+.promo-code__img img { 
   width: 100%;
   }
