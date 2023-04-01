@@ -1255,8 +1255,12 @@ input[type='password']::-webkit-input-placeholder {
 .sending-method { 
   display: flex;
   padding: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 12px;
+  }
+
+.form-main__sending-method { 
+  border: 1px solid rgba(255, 255, 255, 0.3);
   }
 
 .sending-method_indent-right { 
@@ -1294,13 +1298,22 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .sending-method input:checked + label { 
+  color: #fff;
   background: #f58f0b;
   }
 
 .sending-method__icon { 
-  display: block;
+  display: flex;
   flex-shrink: 0;
   margin: 0 15px 0 0;
+  }
+
+.sending-method__icon path { 
+  fill: #131313;
+  }
+
+.sending-method input:checked + label .sending-method__icon path { 
+  fill: #fff;
   }
 
 .sending-method__text { 
@@ -2973,6 +2986,7 @@ input[type='password']::-webkit-input-placeholder {
 .detail__form fieldset:nth-child(3) { 
   display: flex;
   justify-content: center;
+  margin: 0;
   }
 
 .detail input[type="tel"], 
@@ -3257,6 +3271,11 @@ button.hystmodal__shadow--show {
   border-radius: 30px;
   }
 
+#callback .hystmodal__window { 
+  padding: 0;
+  max-width: 1000px;
+  }
+
 /* hystmodal__close */
 .hystmodal .hystmodal__close { 
   width: 17px;
@@ -3269,4 +3288,84 @@ button.hystmodal__shadow--show {
 
 .hystmodal .hystmodal__close:hover { 
   opacity: 0.8;
+  }
+
+/* callback */
+.callback { 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+/* callback__description */
+.callback__description { 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px 0;
+  padding: 60px 60px 0;
+  left: -2px;
+  color: #fff;
+  background: url(../img/src/callback-bg.jpg) center no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  }
+
+.callback__title { 
+  margin: 0 0 30px;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 54px;
+  }
+
+.callback__description p { 
+  margin: 0;
+  font-size: 30px;
+  line-height: 40px;
+  }
+
+.callback__phone img { 
+  width: 100%;
+  }
+
+/* callback__form */
+.callback__form { 
+  padding: 60px;
+  }
+
+.callback__form fieldset { 
+  margin: 0 0 28px;
+  }
+
+.callback__form fieldset:nth-child(4) { 
+  margin: 0 0 10px;
+  }
+
+.callback__form fieldset:nth-child(6) {
+  display: flex;
+  justify-content: center;
+  }
+
+.callback__form fieldset:last-child { 
+  margin: 0;
+  }
+
+.input-disabled { 
+  background: #e1e1e3 !important;
+  }
+
+/* small-title */
+.small-title { 
+  margin: 0 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 28px;
+  opacity: 0.5;
+  }
+
+/* callback__btn */
+.callback__btn { 
+  padding: 35px 35px;
+  width: 100%;
   }
