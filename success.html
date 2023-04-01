@@ -261,7 +261,7 @@
                         <div class="shipment__description">
                             <h3 class="shipment__title">Отгрузка позиций из<br> складской программы<br> в течение рабочего дня</h3>
                             <p>Срок доставки позиций на заказ от 7 до 10 дней</p>
-                            <a href="#" class="shipment__btn btn">Получить каталог моделей<br> из складской программы</a>
+                            <a href="#" class="shipment__btn btn" data-hystmodal="#catalog-form">Получить каталог моделей<br> из складской программы</a>
                         </div>
                     </div>
                     <div class="types-delivery types-delivery_indent-bottom-none">
@@ -375,6 +375,63 @@
         </div>
     </div>
     <!-- callback modal end -->
+
+    <!-- catalog-form modal Start -->
+    <div id="catalog-form" class="hystmodal center-modal" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <button class="hystmodal__close" data-hystclose>Закрыть</button>
+                <div class="hystmodal__styled">
+                    <div class="form-promo form-promo_changed">
+                        <div class="form-promo__top-col">
+                            <h2 class="form-promo__title form-promo__title_indent-bottom-small"><strong>Заполните форму ниже,</strong> чтобы получить доступ<br> к каталогу двигателей для МТЗ <span>+ скидку до 10%,</span></h2>
+                            <p class="form-promo__text">
+                                <strong>которую мы зафиксируем за вашим номером телефона</strong>
+                            </p>
+                            <form>
+                                <fieldset>
+                                    <input type="tel" name="phone" placeholder="Введите ваш телефон">
+                                </fieldset>
+                                <fieldset>
+                                    <button class="form-promo__btn btn" type="submit">Получить доступ к каталогу<br> + скидку до 10%</button>
+                                </fieldset>
+                                <fieldset>
+                                    <div class="form-promo__checkbox checkbox">
+                                        <input id="accept-9" type="checkbox" checked="checked">
+                                        <label for="accept-9">Я принимаю <a href="#">политику конфиденциальности</a></label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="form-promo__bottom-col">
+                            <dl class="form-promo__contacts">
+                                <dt>Контакты компании:</dt>
+                                <dd>
+                                    <a href="tel:8 (927) 728-63-56">
+                                        <img src="img/bg/phone-icon.svg" alt="icon">
+                                        <span>8 (927) 728-63-56</span>
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="mailto:agromir716@mail.ru">
+                                        <img src="img/bg/mail-icon.svg" alt="icon">
+                                        <span>agromir716@mail.ru</span>
+                                    </a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="form-promo__img form-promo__img_changed">
+                            <picture>
+                                <source srcset="img/src/catalog.webp" type="image/webp">
+                                <img src="img/src/catalog.png" alt="photo">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- catalog-form modal end -->
     
     <!-- jQuery libs -->
     <script type="text/javascript" src="js/jquery.min.js"></script>

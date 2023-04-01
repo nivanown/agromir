@@ -87,7 +87,7 @@ p {
   }
 
 b, strong { 
-  font-weight: 700;
+  font-weight: 500;
   }
 
 button { 
@@ -462,6 +462,10 @@ body {
   z-index: 10;
   }
 
+.form-promo_changed .form-promo__top-col { 
+  padding-right: 290px;
+  }
+
 .form-promo__title { 
   margin: 0 0 40px;
   font-size: 34px;
@@ -469,14 +473,13 @@ body {
   line-height: 46px;
   }
 
-.form-promo__title strong { 
-  font-weight: 500;
+.form-promo__title_indent-bottom-small { 
+  margin: 0 0 10px;
   }
 
 .form-promo__title span { 
   position: relative;
   display: inline-block;
-  margin: 0 0 0 6px;
   padding: 0 15px;
   vertical-align: top;
   }
@@ -491,6 +494,12 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   content: "";
+  }
+
+.form-promo__text { 
+  margin: 0 0 30px;
+  font-size: 30px;
+  line-height: 40px;
   }
 
 /* form-promo */
@@ -866,6 +875,12 @@ input[type='password']::-webkit-input-placeholder {
   z-index: 5;
   }
 
+.form-promo__img_changed { 
+  width: 598px;
+  right: -215px;
+  bottom: 24px;
+  }
+
 .form-promo__img img { 
   width: 100%;
   }
@@ -1019,10 +1034,6 @@ input[type='password']::-webkit-input-placeholder {
   line-height: 28px;
   }
 
-.agromir-info__description p strong { 
-  font-weight: 500;
-  }
-
 /* title */
 .title {  
   margin: 0 0 40px;
@@ -1169,10 +1180,6 @@ input[type='password']::-webkit-input-placeholder {
   display: block;
   font-size: 24px;
   line-height: 34px;
-  }
-
-.info-panel__text strong { 
-  font-weight: 500;
   }
 
 /* form-main */
@@ -1351,10 +1358,6 @@ input[type='password']::-webkit-input-placeholder {
   margin: 0 0 40px;
   font-size: 32px;
   line-height: 42px;
-  }
-
-.quality__text strong { 
-  font-weight: 500;
   }
 
 .quality__info-panel {  
@@ -2223,10 +2226,6 @@ input[type='password']::-webkit-input-placeholder {
   line-height: 30px;
   }
 
-.types-delivery p strong { 
-  font-weight: 500;
-  }
-
 /* calculation */
 .calculation { 
   padding: 88px 80px;
@@ -2387,10 +2386,6 @@ input[type='password']::-webkit-input-placeholder {
   padding: 0 0 0 20px;
   font-size: 16px;
   line-height: 26px;
-  }
-
-.letters__post strong { 
-  font-weight: 500;
   }
 
 /* get-catalog */
@@ -2596,10 +2591,6 @@ input[type='password']::-webkit-input-placeholder {
   font-weight: 400;
   text-align: center;
   line-height: 46px;
-  }
-
-.consultation-form__title strong { 
-  font-weight: 500;
   }
 
 /* consultation-form__top-panel */
@@ -3274,6 +3265,11 @@ button.hystmodal__shadow--show {
 #callback .hystmodal__window { 
   padding: 0;
   max-width: 1000px;
+  }
+
+#catalog-form .hystmodal__window { 
+  padding: 0;
+  max-width: 1200px;
   }
 
 /* hystmodal__close */
