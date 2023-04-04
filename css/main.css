@@ -398,7 +398,7 @@ body {
 /* parts-supply */
 .parts-supply { 
   margin: 0 auto;
-  padding: 102px 260px 100px;
+  padding: 88px 260px 100px;
   max-width: 1720px;
   background: url(../img/src/parts-supply-img-1.webp) center no-repeat;
   background-size: cover;
@@ -407,7 +407,7 @@ body {
 
 /* parts-supply__title */
 .parts-supply__title { 
-  margin: 0 0 30px;
+  margin: 0 0 20px;
   color: #fff;
   font-size: 56px;
   font-weight: 500;
@@ -417,7 +417,7 @@ body {
 
 /* parts-supply__subtitle */
 .parts-supply__subtitle { 
-  margin: 0 0 50px;
+  margin: 0 0 44px;
   color: #fff;
   font-size: 38px;
   text-align: center;
@@ -429,7 +429,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 0 59px;
-  margin: 0 0 50px;
+  margin: 0 0 46px;
   color: #fff;
   }
 
@@ -458,7 +458,7 @@ body {
 /* form-promo__top-col */
 .form-promo__top-col { 
   position: relative;
-  padding: 50px 315px 35px 60px;
+  padding: 50px 315px 39px 60px;
   z-index: 10;
   }
 
@@ -467,7 +467,7 @@ body {
   }
 
 .form-promo__title { 
-  margin: 0 0 40px;
+  margin: 0 0 36px;
   font-size: 34px;
   font-weight: 400;
   line-height: 46px;
@@ -622,7 +622,7 @@ input[type='password']::-webkit-input-placeholder {
 
 .btn_arrow-right-icon { 
   position: relative;
-  padding: 40px 100px 40px 50px;
+  padding: 33px 97px 33px 48px;
   }
 
 .btn_arrow-right-icon:after { 
@@ -658,8 +658,9 @@ input[type='password']::-webkit-input-placeholder {
 
 .btn_cursor-icon { 
   position: relative;
-  padding-left: 50px;
-  padding-right: 95px;
+  padding: 18px 95px 16px 49px;
+  font-size: 18px;
+  line-height: 28px;
   }
 
 .btn_cursor-icon:after { 
@@ -704,7 +705,7 @@ input[type='password']::-webkit-input-placeholder {
 
 .btn_more-icon { 
   position: relative;
-  padding-right: 92px;
+  padding: 35px 92px 35px 43px;
   }
 
 .btn_more-icon:after { 
@@ -817,7 +818,7 @@ input[type='password']::-webkit-input-placeholder {
   width: 100%;
   height: 1px;
   left: 0;
-  bottom: -3px;
+  bottom: -5px;
   background: #f58f0b;
   opacity: 0.3;
   content: "";
@@ -831,7 +832,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* form-promo__bottom-col */
 .form-promo__bottom-col { 
-  padding: 30px 0 30px 60px;
+  padding: 30px 0 32px 60px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
@@ -887,7 +888,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* info */
 .info { 
-  padding: 120px 0;
+  padding: 120px 0 117px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   }
 
@@ -898,7 +899,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .info__photo { 
-  margin: 0 0 35px;
+  margin: 0 0 28px;
   height: 280px;
   }
 
@@ -914,7 +915,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .info__title { 
-  margin: 0 0 24px;
+  margin: 0 0 10px;
   font-size: 24px;
   font-weight: 500;
   line-height: 34px;
@@ -929,10 +930,10 @@ input[type='password']::-webkit-input-placeholder {
 /* list */
 .list li { 
   position: relative;
-  margin: 0 0 10px;
+  margin: 0 0 4px;
   padding: 0 0 0 19px;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 31px;
   }
 
 .list li:last-child { 
@@ -944,7 +945,7 @@ input[type='password']::-webkit-input-placeholder {
   display: block;
   width: 7px;
   height: 7px;
-  top: 10px;
+  top: 13px;
   left: 0;
   background: #f58f0b;
   border-radius: 100%;
@@ -953,12 +954,12 @@ input[type='password']::-webkit-input-placeholder {
 
 /* agromir-info */
 .agromir-info { 
-  padding: 120px 0;
+  padding: 111px 0 120px;
   }
 
 /* title-main */
 .title-main { 
-  margin: 0 0 30px;
+  margin: 0 0 20px;
   font-size: 46px;
   font-weight: 500;
   text-align: center;
@@ -966,15 +967,15 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .title-main_indent-bottom-big { 
-  margin: 0 0 60px;
+  margin: 0 0 54px;
   }
 
 /* subtitle */
 .subtitle { 
-  margin: 0 0 60px;
+  margin: 0 0 57px;
   font-size: 28px;
   text-align: center;
-  line-height: 38px;
+  line-height: 37px;
   }
 
 .subtitle__cursor-icon { 
@@ -1016,13 +1017,13 @@ input[type='password']::-webkit-input-placeholder {
 
 .agromir-info__description { 
   position: relative;
-  padding: 100% 40px 40px 45px;
+  padding: 92% 40px 40px 45px;
   color: #fff;
   z-index: 5;
   }
 
 .agromir-info__title { 
-  margin: 0 0 25px;
+  margin: 0 0 12px;
   font-size: 28px;
   font-weight: 500;
   line-height: 38px;
@@ -1036,7 +1037,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* title */
 .title {  
-  margin: 0 0 40px;
+  margin: 0 0 37px;
   font-size: 40px;
   font-weight: 500;
   text-align: center;
@@ -1047,7 +1048,7 @@ input[type='password']::-webkit-input-placeholder {
 .reviews { 
   position: relative;
   margin: 0 auto;
-  padding: 80px 70px 70px;
+  padding: 73px 70px 70px;
   max-width: 1200px;
   background: #fff;
   border-radius: 40px;
@@ -1119,10 +1120,13 @@ input[type='password']::-webkit-input-placeholder {
   width: 100%;
   }
 
+.tabs__btn-panel { 
+  padding: 28px 0 0;
+  }
+
 .tabs__btn-panel_position-right { 
   display: flex;
   justify-content: flex-end;
-  padding: 30px 0 0;
   }
 
 /* cost-calculation */
@@ -1152,7 +1156,7 @@ input[type='password']::-webkit-input-placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 60px;
+  padding: 49px 60px 60px;
   z-index: 5;
   }
 
@@ -1168,7 +1172,7 @@ input[type='password']::-webkit-input-placeholder {
 .info-panel__in { 
   display: flex;
   align-items: center;
-  padding: 30px 35px;
+  padding: 30px 35px 36px;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 10px;
   }
@@ -1186,16 +1190,20 @@ input[type='password']::-webkit-input-placeholder {
 
 /* form-main */
 .form-main { 
-  padding: 60px;
+  padding: 50px 60px 63px;
   max-width: 500px;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 20px;
   }
 
+.get-catalog__form-main { 
+  padding: 50px 60px 26px;
+  }
+
 /* form-main__title */
 .form-main__title { 
-  margin: 0 0 38px;
+  margin: 0 0 26px;
   font-size: 34px;
   font-weight: 500;
   line-height: 46px;
@@ -1203,7 +1211,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .get-catalog__form-main .form-main__title { 
-  margin: 0 0 25px;
+  margin: 0 0 12px;
   }
 
 .form-main__title img { 
@@ -1216,13 +1224,13 @@ input[type='password']::-webkit-input-placeholder {
   display: block;
   margin: 0 0 40px;
   font-size: 30px;
-  line-height: 40px;
+  line-height: 38px;
   }
 
 /* form-main__sub-title */
 .form-main__sub-title { 
   display: block;
-  margin: 0 0 20px;
+  margin: 0 0 12px;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1238,14 +1246,14 @@ input[type='password']::-webkit-input-placeholder {
 
 /* form-main__phone */
 .form-main__phone { 
-  margin: 30px 0 0;
+  margin: 39px 0 0;
   padding: 25px 0 0;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   }
 
 .form-main__phone dt { 
-  margin: 0 0 20px;
+  margin: 0 0 23px;
   font-size: 24px;
   line-height: 18px;
   }
@@ -1263,7 +1271,7 @@ input[type='password']::-webkit-input-placeholder {
 /* sending-method */
 .sending-method { 
   display: flex;
-  padding: 5px;
+  padding: 4px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   }
@@ -1300,7 +1308,7 @@ input[type='password']::-webkit-input-placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 13px 15px;
+  padding: 13px 15px 11px;
   border-radius: 8px;
   cursor: pointer;
   transition: .3s background;
@@ -1344,8 +1352,8 @@ input[type='password']::-webkit-input-placeholder {
 
 /* quality */
 .quality { 
-  margin: -100px 0 0;
-  padding: 240px 0 120px;
+  margin: -120px 0 0;
+  padding: 231px 0 120px;
   color: #fff;
   background: url(../img/src/quality-img.jpg) center no-repeat;
   background-size: cover;
@@ -1353,11 +1361,12 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .quality__main-title { 
+  margin: 0 0 40px;
   text-align: left;
   }
 
 .quality__text { 
-  margin: 0 0 40px;
+  margin: 0 0 32px;
   font-size: 32px;
   line-height: 42px;
   }
@@ -1368,7 +1377,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* spare-parts */
 .spare-parts { 
-  padding: 120px 0 32px;
+  padding: 120px 0;
   }
 
 .spare-parts_indent-bottom-big { 
@@ -1382,7 +1391,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .spare-parts__title span { 
-  padding: 14px 30px;
+  padding: 12px 30px 10px;
   color: #fff;
   font-size: 38px;
   font-weight: 500;
@@ -1409,7 +1418,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .catalog__item { 
-  padding: 40px 15px;
+  padding: 40px 15px 35px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   }
@@ -1418,12 +1427,12 @@ input[type='password']::-webkit-input-placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0 40px;
+  margin: 0 0 32px;
   height: 200px;
   }
 
 .catalog_four-col .catalog__photo { 
-  margin: 0 0 30px;
+  margin: 0 0 22px;
   height: 150px;
   }
 
@@ -1441,7 +1450,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* delivery-rare */
 .delivery-rare { 
-  padding: 120px 0;
+  padding: 110px 0 120px;
   background: url(../img/src/delivery-rare-img.jpg) center no-repeat;
   background-size: cover;
   border-radius: 0 0 70px 70px;
@@ -1459,7 +1468,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* positions */
 .positions { 
-  padding: 207px 0 120px;
+  padding: 112px 0 120px;
   }
 
 .positions__col { 
@@ -1498,7 +1507,7 @@ input[type='password']::-webkit-input-placeholder {
 .accordion__title { 
   position: relative;
   display: block;
-  padding: 20px 50px 20px 20px;
+  padding: 15px 50px 16px 20px;
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
@@ -1531,11 +1540,11 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .accordion__content-in { 
-  padding: 25px 0 0;
+  padding: 19px 0 0;
   }
 
 .accordion__list li { 
-  margin: 0 0 20px;
+  margin: 0 0 6px;
   padding: 0 0 0 20px;
   }
 
@@ -1564,7 +1573,7 @@ input[type='password']::-webkit-input-placeholder {
 .accordion__checkbox label { 
   color: #131313;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 28px;
   cursor: pointer;
   }
 
@@ -1627,7 +1636,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .product-catalog__photo { 
-  margin: 0 0 60px;
+  margin: 0 0 52px;
   height: 145px;
   }
 
@@ -1638,7 +1647,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .product-catalog__title { 
-  margin: 0 0 25px;
+  margin: 0 0 18px;
   height: 84px;
   font-size: 18px;
   font-weight: 400;
@@ -1648,7 +1657,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .product-catalog__form { 
-  margin: 0 0 30px;
+  margin: 0 0 28px;
   }
 
 .product-catalog fieldset { 
@@ -1680,13 +1689,13 @@ input[type='password']::-webkit-input-placeholder {
   display: flex;
   grid-column: 1/-1;
   justify-content: center;
-  padding: 35px 0 0;
+  padding: 37px 0 0;
   }
 
 /* position-selection */
 .position-selection {
   margin: 0 auto; 
-  padding: 120px 0;
+  padding: 112px 0 120px;
   max-width: 1600px;
   color: #fff;
   background: url(../img/src/position-selection-img.jpg) center no-repeat;
@@ -1715,7 +1724,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* product-documentation */
 .product-documentation { 
-  padding: 120px 0 0;
+  padding: 110px 0 0;
   }
 
 .product-documentation__col { 
@@ -1729,7 +1738,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .product-documentation__title-main { 
-  margin: 0 0 50px;
+  margin: 0 0 43px;
   text-align: left;
   }
 
@@ -1739,7 +1748,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .product-documentation__check-list { 
-  margin-left: 60px;
+  margin-left: 58px;
   }
 
 .check-list li { 
@@ -1789,7 +1798,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .doc-panel__photo { 
-  margin: 0 0 20px;
+  margin: 0 0 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1807,7 +1816,7 @@ input[type='password']::-webkit-input-placeholder {
 .product-documentation__photo { 
   position: absolute;
   width: 643px;
-  top: -50px;
+  top: -40px;
   right: 0;
   }
 
@@ -1817,7 +1826,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* quality-control */
 .quality-control { 
-  padding: 120px 0;
+  padding: 112px 0 120px;
   }
 
 /* quality-control__catalog */
@@ -1828,7 +1837,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .quality-control__photo { 
-  margin: 0 0 30px;
+  margin: 0 0 24px;
   }
 
 .quality-control__photo img { 
@@ -1848,8 +1857,8 @@ input[type='password']::-webkit-input-placeholder {
 /* warranty */
 .warranty { 
   position: relative;
-  margin: 0 auto 120px;
-  padding: 80px 100px;
+  margin: 0 auto 148px;
+  padding: 67px 100px 45px;
   max-width: 1200px;
   background: #fff;
   border-radius: 40px;
@@ -1857,7 +1866,7 @@ input[type='password']::-webkit-input-placeholder {
 
 .warranty__item { 
   display: flex;
-  margin: 0 0 40px;
+  margin: 0 0 37px;
   }
 
 .warranty__item:last-child { 
@@ -1869,7 +1878,7 @@ input[type='password']::-webkit-input-placeholder {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  margin: 6px 19px 0 0;
+  margin: 0 19px 0 0;
   width: 56px;
   height: 56px;
   background: #f58f0b;
@@ -1877,8 +1886,12 @@ input[type='password']::-webkit-input-placeholder {
   box-shadow: 0 15px 30px rgba(223, 126, 0, 0.1), inset 0 0 15px rgba(255, 255, 255, 0.2);
   }
 
+.warranty__description { 
+  margin: -8px 0 0;
+  }
+
 .warranty__title { 
-  margin: 0 0 20px;
+  margin: 0 0 11px;
   font-size: 24px;
   font-weight: 500;
   line-height: 34px;
@@ -1900,9 +1913,9 @@ input[type='password']::-webkit-input-placeholder {
 
 .warranty__doc { 
   position: absolute;
-  width: 615px;
+  width: 663px;
   right: 29px;
-  bottom: -83px;
+  bottom: -110px;
   }
 
 .warranty__doc img { 
@@ -1912,7 +1925,7 @@ input[type='password']::-webkit-input-placeholder {
 /* work */
 .work { 
   position: relative;
-  padding: 120px 0;
+  padding: 112px 0 120px;
   background: #1c1c23;
   }
 
@@ -1958,7 +1971,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .company__item { 
-  padding: 40px 15px;
+  padding: 40px 15px 35px;
   background: #fff;
   border-radius: 30px;
   }
@@ -1967,7 +1980,7 @@ input[type='password']::-webkit-input-placeholder {
   display: flex;
   justify-content: center;
   align-items: center; 
-  margin: 0 0 25px;
+  margin: 0 0 22px;
   height: 121px;
   }
 
@@ -1994,7 +2007,7 @@ input[type='password']::-webkit-input-placeholder {
 .conditions__item { 
   display: flex;
   align-items: center;
-  padding: 40px;
+  padding: 38px 40px 36px 40px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 18px;
   }
@@ -2042,7 +2055,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* financial-conditions */
 .financial-conditions { 
-  padding: 120px 0;
+  padding: 111px 0 120px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   }
 
@@ -2054,7 +2067,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .types-payment__item { 
-  padding: 40px 20px 40px 30px;
+  padding: 40px 20px 35px 30px;
   border: 1px solid #e0e0e0;
   background: #f7f7f7;
   border-radius: 30px;
@@ -2067,12 +2080,12 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .types-payment__icon { 
-  margin: 0 0 30px;
+  margin: 0 0 27px;
   height: 47px;
   }
 
 .types-payment__title { 
-  margin: 0 0 25px;
+  margin: 0 0 17px;
   font-size: 24px;
   font-weight: 500;
   line-height: 20px;
@@ -2089,7 +2102,7 @@ input[type='password']::-webkit-input-placeholder {
 
 .financial-conditions__info-small-panel { 
   justify-content: center;
-  margin: 0 0 50px;
+  margin: 0 0 45px;
   }
 
 .info-small-panel__icon { 
@@ -2116,7 +2129,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* product-delivery */
 .product-delivery { 
-  padding: 120px 0 0;
+  padding: 112px 0 0;
   }
 
 /* protection */
@@ -2127,7 +2140,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .protection__photo { 
-  margin: 0 0 35px;
+  margin: 0 0 27px;
   }
 
 .protection__photo img { 
@@ -2142,7 +2155,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .protection__title { 
-  margin: 0 0 20px;
+  margin: 0 0 14px;
   font-size: 28px;
   font-weight: 500;
   line-height: 38px;
@@ -2150,14 +2163,14 @@ input[type='password']::-webkit-input-placeholder {
 
 .protection__info-small-panel { 
   max-width: 410px;
-  padding: 20px;
+  padding: 25px 20px 24px;
   border: 1px solid rgba(19, 19, 19, 0.1);
   border-radius: 16px;
   }
 
 /* delivery */
 .delivery { 
-  padding: 120px 0;
+  padding: 110px 0 120px;
   }
 
 /* shipment */
@@ -2165,7 +2178,7 @@ input[type='password']::-webkit-input-placeholder {
   display: flex;
   justify-content: flex-end;
   margin: 0 0 60px;
-  padding: 100px 120px;
+  padding: 90px 115px 100px;
   background: url(../img/src/shipment-img.jpg) center no-repeat;
   background-size: cover;
   border-radius: 30px;
@@ -2176,14 +2189,14 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .shipment__title { 
-  margin: 0 0 30px;
+  margin: 0 0 19px;
   font-size: 34px;
   font-weight: 500;
   line-height: 46px;
   }
 
 .shipment__description p { 
-  margin: 0 0 40px;
+  margin: 0 0 34px;
   font-size: 24px;
   line-height: 34px;
   }
@@ -2204,7 +2217,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .types-delivery__item { 
-  padding: 40px;
+  padding: 38px 38px 35px;
   border: 1px solid #e0e0e0;
   border-radius: 30px;
   }
@@ -2218,7 +2231,7 @@ input[type='password']::-webkit-input-placeholder {
 .types-delivery__icon { 
   display: flex;
   align-items: flex-end;
-  margin: 0 0 20px;
+  margin: 0 0 17px;
   width: 50px;
   height: 48px;
   }
@@ -2235,22 +2248,22 @@ input[type='password']::-webkit-input-placeholder {
 
 /* calculation */
 .calculation { 
-  padding: 88px 80px;
+  padding: 78px 80px 88px;
   background: url(../img/src/calculation-img.jpg) center no-repeat;
   background-size: cover;
   border-radius: 30px;
   }
 
 .calculation__description { 
-  margin: 0 0 40px;
+  margin: 0 0 34px;
   padding: 0 0 0 40px;
   }
 
 .calculation__title { 
-  margin: 0 0 30px;
+  margin: 0 0 18px;
   font-size: 34px;
   font-weight: 500;
-  line-height: 44px;
+  line-height: 46px;
   }
 
 .calculation__description p { 
@@ -2259,10 +2272,14 @@ input[type='password']::-webkit-input-placeholder {
   line-height: 34px;
   }
 
+.calculation__info-panel .info-panel__in { 
+  padding: 23px 35px 23px;
+  }
+
 /* letters */
 .letters { 
   margin: 0 auto;
-  padding: 120px 15px;
+  padding: 112px 15px 120px;
   max-width: 1600px;
   background: #fff;
   border-radius: 70px 70px 0 0;
@@ -2280,7 +2297,7 @@ input[type='password']::-webkit-input-placeholder {
   padding: 0;
   width: 56px;
   height: 56px;
-  top: 255px;
+  top: 264px;
   border: 0;
   background: #f58f0b;
   border-radius: 100%;
@@ -2352,7 +2369,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .letters__title { 
-  margin: 0 0 30px;
+  margin: 0 0 25px;
   font-size: 30px;
   font-weight: 400;
   line-height: 40px;
@@ -2360,8 +2377,8 @@ input[type='password']::-webkit-input-placeholder {
 
 .letters__comment { 
   position: relative;
-  margin: 0 0 50px;
-  padding: 40px;
+  margin: 0 0 40px;
+  padding: 32px 40px 36px;
   border: 1px solid #dadada;
   }
 
@@ -2378,7 +2395,7 @@ input[type='password']::-webkit-input-placeholder {
 
 .letters__name { 
   display: block;
-  margin: 0 0 30px;
+  margin: 0 0 25px;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
@@ -2398,7 +2415,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .letters__btn-panel { 
-  padding: 40px 0 0 440px;
+  padding: 0 0 0 440px;
   }
 
 /* get-catalog */
@@ -2461,14 +2478,14 @@ input[type='password']::-webkit-input-placeholder {
 
 /* consultation */
 .consultation { 
-  padding: 120px 0;
+  padding: 112px 0 120px;
   }
 
 /* manager */
 .manager { 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px 90px;
+  gap: 30px 58px;
   margin: 0 0 60px;
   padding: 0 0 0 17px;
   }
@@ -2483,7 +2500,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .manager__description { 
-  padding: 15px 0 0;
+  padding: 21px 0 0;
   }
 
 .manager__title { 
@@ -2505,7 +2522,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .consultants__photo { 
-  margin: 0 0 30px;
+  margin: 0 0 37px;
   }
 
 .consultants__photo img { 
@@ -2516,11 +2533,11 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .consultants__description { 
-  padding: 0 45px 0 40px;
+  padding: 0 35px 0 45px;
   }
 
 .consultants__title { 
-  margin: 0 0 20px;
+  margin: 0 0 15px;
   font-size: 28px;
   font-weight: 500;
   line-height: 26px;
@@ -2534,11 +2551,15 @@ input[type='password']::-webkit-input-placeholder {
 /* office */
 .office { 
   margin: 0 auto;
-  padding: 120px 15px;
+  padding: 107px 15px 120px;
   max-width: 1600px;
   background: #fff;
   background: url(../img/src/office-bg.png) center 304px no-repeat #fff;
   border-radius: 70px;
+  }
+
+.office__subtitle { 
+  margin: 0 0 52px;
   }
 
 /* exhibition-samples */
@@ -2554,8 +2575,8 @@ input[type='password']::-webkit-input-placeholder {
   width: 442px;
   }
 
-.exhibition-samples__description .title { 
-  margin: 0 0 30px;
+.exhibition-samples__title { 
+  margin: 0 0 18px;
   text-align: left;
   }
 
@@ -2598,14 +2619,14 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .consultation-form__in { 
-  padding: 48px 100px 53px;
+  padding: 40px 100px 53px;
   background: #fff;
   border-radius: 26px;
   }
 
 /* consultation-form__title */
 .consultation-form__title { 
-  margin: 0 0 30px;
+  margin: 0 0 20px;
   font-size: 34px;
   font-weight: 400;
   text-align: center;
@@ -2617,7 +2638,8 @@ input[type='password']::-webkit-input-placeholder {
   display: flex;
   align-items: center;
   gap: 0 75px;
-  margin: 0 0 30px;
+  margin: 0 0 27px;
+  padding: 0 0 0 16px;
   }
 
 /* consultation-form form */
@@ -2644,7 +2666,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .address__img { 
-  margin: 0 20px 0 0;
+  margin: 0 16px 0 0;
   }
 
 .address__img img { 
@@ -2706,7 +2728,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* office-info */
 .office-info { 
-  padding: 120px 0 70px;
+  padding: 112px 0 56px;
   }
 
 /* office-info__time */
@@ -2714,7 +2736,7 @@ input[type='password']::-webkit-input-placeholder {
   display: flex;
   justify-content: center;
   gap: 0 10px;
-  margin: 0 0 65px;
+  margin: 0 0 56px;
   font-size: 28px;
   line-height: 38px;
   }
@@ -2846,6 +2868,7 @@ input[type='password']::-webkit-input-placeholder {
 /* location__form-main */
 .location__form-main { 
   position: relative;
+  padding: 50px 60px 56px;
   max-width: 555px;
   border: 0;
   background: #131313;
@@ -3172,7 +3195,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* footer */
 .footer { 
-  padding: 15px 0;
+  padding: 27px 0 15px;
   }
 
 .footer__container { 
