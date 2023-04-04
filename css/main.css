@@ -2892,7 +2892,7 @@ input[type='password']::-webkit-input-placeholder {
 .product-info { 
   position: relative;
   margin: 0 auto;
-  padding: 70px 0 200px;
+  padding: 63px 0 200px;
   max-width: 1720px;
   color: #fff;
   background: #1c1c23;
@@ -2932,7 +2932,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* bread-crumbs */
 .bread-crumbs { 
-  margin: 0 0 60px;
+  margin: 0 0 58px;
   }
 
 .bread-crumbs ul { 
@@ -3050,6 +3050,10 @@ input[type='password']::-webkit-input-placeholder {
   background: none;
   }
 
+.product-info__form-promo .form-promo__title span:before { 
+  border-color: rgba(255, 255, 255, 0.3);
+  }
+
 .product-info__form-promo .form-promo__bottom-col { 
   border-color: rgba(255, 255, 255, 0.1);
   }
@@ -3060,7 +3064,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* question */
 .question { 
-  padding: 120px 0;
+  padding: 111px 0 120px;
   }
 
 .question__panel { 
@@ -3074,7 +3078,7 @@ input[type='password']::-webkit-input-placeholder {
 .phone-company a { 
   display: flex;
   align-items: center;
-  gap: 0 15px;
+  gap: 0 20px;
   }
 
 .phone-company img {
@@ -3087,12 +3091,13 @@ input[type='password']::-webkit-input-placeholder {
   font-size: 34px;
   font-weight: 500;
   line-height: 26px;
+  letter-spacing: -0.76px;
   }
 
 /* success */
 .success { 
   margin: 0 auto;
-  padding: 140px 0 150px;
+  padding: 130px 0 140px;
   max-width: 1720px;
   color: #fff;
   background: url(../img/src/success-bg.jpg) center no-repeat;
@@ -3112,7 +3117,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* success__title */
 .success__title { 
-  margin: 0 0 30px;
+  margin: 0 0 20px;
   font-size: 60px;
   font-weight: 500;
   line-height: 70px;
@@ -3120,7 +3125,7 @@ input[type='password']::-webkit-input-placeholder {
 
 /* success__text */
 .success__text { 
-  margin: 0 0 60px;
+  margin: 0 0 48px;
   font-size: 34px;
   line-height: 46px;
   }
@@ -3129,7 +3134,7 @@ input[type='password']::-webkit-input-placeholder {
 .reminder { 
   display: flex;
   align-items: center;
-  margin: 0 0 30px;
+  margin: 0 0 25px;
   }
 
 .reminder__icon { 
@@ -3168,8 +3173,12 @@ input[type='password']::-webkit-input-placeholder {
   width: 100%;
   }
 
+.success__manager { 
+  padding: 10px 0 0;
+  }
+
 .success__manager dt { 
-  margin: 0 0 19px;
+  margin: 0 0 10px;
   font-size: 28px;
   font-weight: 500;
   line-height: 38px;
@@ -3185,8 +3194,8 @@ input[type='password']::-webkit-input-placeholder {
 .success__manager-photo { 
   position: absolute;
   width: 688px;
-  right: 0;
-  bottom: -150px;
+  right: -19px;
+  bottom: -140px;
   }
 
 .success__manager-photo img { 
