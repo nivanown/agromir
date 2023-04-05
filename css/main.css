@@ -3156,7 +3156,7 @@ input[type='password']::-webkit-input-placeholder {
 
 .success__form { 
   flex-shrink: 0;
-  width: 400px;
+  max-width: 400px;
   }
 
 .success__form input { 
@@ -3167,6 +3167,10 @@ input[type='password']::-webkit-input-placeholder {
 
 .success__form fieldset { 
   margin: 0 0 10px;
+  }
+
+.success__form fieldset:last-child { 
+  margin: 0;
   }
 
 .success__btn { 
@@ -3306,13 +3310,17 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 /* hystmodal */
+.hystmodal__wrap { 
+  padding: 0 45px;
+  }
+
 button.hystmodal__shadow--show { 
   opacity: 0.8;
   }
 
 .hystmodal .hystmodal__window { 
   position: relative;
-  margin: 168px 0 50px;
+  margin: 50px 0;
   padding: 70px 80px 80px;
   max-width: 1360px;
   width: 100%;
@@ -3338,10 +3346,12 @@ button.hystmodal__shadow--show {
 .hystmodal .hystmodal__close { 
   width: 17px;
   height: 17px;
+  top: 0;
   right: -31px;
   background: url(../img/bg/close-icon.svg) center no-repeat;
   background-size: 100%;
   transition: .3s opacity;
+  z-index: 99;
   }
 
 .hystmodal .hystmodal__close:hover { 
@@ -3449,6 +3459,7 @@ button.hystmodal__shadow--show {
   color: #fff;
   font-size: 32px;
   font-weight: 500;
+  text-align: center;
   line-height: 40px;
   background: #f58f0b;
   border-radius: 16px;
@@ -3459,7 +3470,7 @@ button.hystmodal__shadow--show {
   }
 
 .promo-code__small-title { 
-  margin: 14px;
+  margin: 0 0 14px;
   }
 
 .promo-code__form { 
