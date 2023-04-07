@@ -24,9 +24,22 @@
 	border-radius: 0;
 	}
 
+.quality { 
+	border-radius: 0;
+	}
+
+.delivery-rare { 
+	border-radius: 0;
+	}
+
 }
 
 @media (max-width: 1600px) {
+
+.position-selection { 
+	padding: 50px 0;
+	border-radius: 0;
+	}
 
 .office { 
 	padding: 70px 0;
@@ -148,6 +161,14 @@
 
 @media (max-width: 1200px) {
 
+.info { 
+	padding: 50px 0;
+	}
+
+.agromir-info { 
+	padding: 50px 0;
+	}
+
 .parts-supply {
 	padding: 50px 0;
 	}
@@ -240,7 +261,7 @@
 	}
 
 .consultation { 
-	padding: 70px 0;
+	padding: 50px 0;
 	}
 
 .get-catalog__img { 
@@ -271,16 +292,41 @@
 	}
 
 .delivery { 
-	padding: 70px 0;
+	padding: 50px 0;
 	}
 
 .work { 
-	padding: 70px 0;
+	padding: 50px 0;
+	}
+
+.quality { 
+	margin: 0;
+	padding: 50px 0;
+	}
+
+.delivery-rare { 
+	padding: 50px 0;
+	}
+
+.positions { 
+	padding: 50px 0;
+	}
+
+.product-catalog { 
+	grid-template-columns: repeat(2, 1fr);
+	}
+
+.financial-conditions { 
+	padding: 50px 0;
 	}
 
 }
 
 @media (max-width: 1100px) {
+
+.info__catalog { 
+	gap: 0 15px;
+	}
 
 .tabs { 
 	gap: 0 30px;
@@ -331,6 +377,10 @@
 
 .work__form-promo fieldset:nth-child(3) { 
 	grid-column: 1/-1;
+	}
+
+.warranty { 
+	margin: 0;
 	}
 
 }
@@ -546,9 +596,68 @@
 	padding: 30px;
 	}
 
+.quality__text { 
+	font-size: 24px;
+	line-height: 30px;
+	}
+
+.quality__text br { 
+	display: none;
+	}
+
 }
 
 @media (max-width: 1024px) {
+
+.info__catalog { 
+	display: flex;
+	gap: 0 15px;
+	margin: 0 -15px;
+	padding: 0 15px;
+	overflow-x: scroll; 
+	white-space: nowrap;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	}
+
+.info__catalog::-webkit-scrollbar {
+	width: 0; 
+	height: 0;
+	background: transparent;
+	}
+
+.info__item { 
+	min-width: 370px;
+	width: 370px;
+	white-space: normal;
+	}
+
+.info__description { 
+	padding: 0;
+	}
+
+.agromir-info__catalog { 
+	display: flex;
+	gap: 0 15px;
+	margin: 0 -15px;
+	padding: 0 15px;
+	overflow-x: scroll; 
+	white-space: nowrap;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	}
+
+.agromir-info__catalog::-webkit-scrollbar {
+	width: 0; 
+	height: 0;
+	background: transparent;
+	}
+
+.agromir-info__item { 
+	min-width: 370px;
+	width: 370px;
+	white-space: normal
+	}
 
 .hystmodal .types-delivery { 
 	margin: 0 -30px;
@@ -641,8 +750,8 @@
 	}
 
 .photos__item { 
-	width: 270px;
-	min-width: 270px;
+	width: 370px;
+	min-width: 370px;
 	white-space: normal;
 	}
 
@@ -837,6 +946,45 @@
 	gap: 15px 15px;
 	}
 
+.types-payment { 
+	display: flex;
+	gap: 0 15px;
+	margin: 0 -15px 40px;
+	padding: 0 15px;
+	overflow-x: scroll; 
+	white-space: nowrap;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	}
+
+.types-payment::-webkit-scrollbar {
+	width: 0; 
+	height: 0;
+	background: transparent;
+	}
+
+.types-payment__item { 
+	padding: 25px;
+	width: 340px;
+	min-width: 340px;
+	white-space: normal;
+	}
+
+.types-payment__icon { 
+	margin: 0 0 15px;
+	}
+
+.types-payment__title { 
+	margin: 0 0 10px;
+	font-size: 20px;
+	line-height: 24px;
+	}
+
+.types-payment__item p { 
+	font-size: 16px;
+	line-height: 26px;
+	}
+
 }
 
 @media (max-width: 1000px) {
@@ -990,6 +1138,10 @@ p {
 .calculation__description p { 
 	font-size: 20px;
 	line-height: 30px;
+	}
+
+.info-panel__in { 
+	padding: 15px;
 	}
 
 .calculation__info-panel .info-panel__in { 
@@ -1187,6 +1339,86 @@ p {
 	grid-template-columns: repeat(1, 1fr);
 	margin: 0 auto;
 	max-width: 400px;
+	}
+
+.parts-supply__advantages { 
+	gap: 15px 15px;
+ 	}
+
+.parts-supply__item { 
+	align-items: center;
+	}
+
+.parts-supply__icon { 
+	margin-top: 0;
+	}
+
+.parts-supply__text { 
+	font-size: 14px;
+	line-height: 20px;
+	}
+
+.parts-supply__title br { 
+	display: none;
+	}
+
+.parts-supply__title { 
+	font-size: 36px;
+	line-height: 46px;
+	}
+
+.parts-supply__subtitle { 
+	margin: 0 0 30px;
+	font-size: 26px;
+	line-height: 30px;
+	}
+
+.filters { 
+	padding: 10px 10px 25px;
+	width: 240px;
+	}
+
+.positions__filters { 	
+	margin: 0 15px 0 0;
+	}
+
+.accordion__item { 
+	margin: 0 0 15px;
+	}
+
+.filters__accordion { 
+	margin: 0 0 15px;
+	}
+
+.accordion__title { 
+	font-size: 16px;
+	}
+
+.filters__btn { 
+	margin: 0 0 15px;
+	padding: 15px 20px;
+	font-size: 16px;
+	}
+
+.filters__link { 
+	font-size: 14px;
+	}
+
+.accordion__content-in { 
+	padding: 15px 0 0;
+	}
+
+.accordion__list li { 
+	padding: 0 0 0 10px;
+	}
+
+.accordion__checkbox input { 
+	margin: 2px 7px 0 0;
+	}
+
+.accordion__checkbox label { 
+	font-size: 14px;
+	line-height: 24px;
 	}
 
 }
@@ -1550,6 +1782,84 @@ input[type="password"] {
 	display: none;
 	}
 
+.parts-supply__advantages { 
+	flex-wrap: wrap;
+	gap: 20px 30px;
+	}
+
+.info__item { 
+	width: 270px;
+	min-width: 270px;
+	}
+
+.info__photo { 
+	margin: 0 0 20px;
+	height: 200px;
+	}
+
+.info__title { 
+	font-size: 20px;
+	line-height: 30px;
+	}
+
+.agromir-info__item { 
+	width: 270px;
+	min-width: 270px;
+	border-radius: 15px;
+	}
+
+.agromir-info__description { 
+	padding: 100% 15px 15px;
+	}
+
+.agromir-info__title { 
+	font-size: 20px;
+	line-height: 26px;
+	}
+
+.title-main { 
+	margin: 0 0 20px;
+	}
+
+.quality__text { 
+	font-size: 22px;
+	line-height: 30px;
+	}
+
+.form-main { 
+	padding: 30px;
+	}
+
+.photos__item { 
+	width: 270px;
+	min-width: 270px;
+	}
+
+.positions__col { 
+	display: block;
+	}
+
+.positions__filters { 
+	margin: 0 0 30px;
+	width: 100%;
+	}
+
+.product-catalog__title { 
+	height: 48px;
+	font-size: 16px;
+	line-height: 24px;
+	}
+
+.btn_more-icon { 
+	padding: 30px 60px 30px 25px;
+	}
+
+.btn_more-icon:after {
+	width: 20px;
+	height: 20px; 
+	right: 25px;
+	}
+
 }
 
 @media (max-width: 680px) {
@@ -1663,6 +1973,53 @@ input[type="password"] {
 
 .conditions { 
 	grid-template-columns: repeat(1, 1fr);
+	}
+
+.parts-supply__title { 
+	font-size: 30px;
+	line-height: 40px;
+	}
+
+.parts-supply__subtitle { 
+	font-size: 20px;
+	line-height: 26px;
+	}
+
+.parts-supply__item { 
+	width: 100%;
+	}
+
+.parts-supply__text { 
+	font-size: 16px;
+	line-height: 24px;
+	}
+
+.parts-supply__text br { 
+	display: none;
+	}
+
+.parts-supply__icon { 
+	width: 47px;
+	}
+
+.quality__text { 
+	font-size: 18px;
+	line-height: 24px;
+	}
+
+.types-payment__item {
+	width: 270px;
+	min-width: 270px;
+	border-radius: 15px;
+	}
+
+.types-payment__item p { 
+	font-size: 14px;
+	line-height: 20px;
+	}
+
+.info-small-panel p br { 
+	display: none;
 	}
 
 }
@@ -1789,6 +2146,10 @@ input[type="password"] {
 .calculation__description p { 
 	font-size: 16px;
 	line-height: 20px;
+	}
+
+.product-catalog { 
+	grid-template-columns: repeat(1, 1fr);
 	}
 
 }
@@ -2000,6 +2361,16 @@ input[type="password"] {
 	padding: 15px;
 	}
 
+.agromir-info__description p { 
+	font-size: 14px;
+	line-height: 24px;
+	}
+
+.info-panel__text { 
+	font-size: 16px;
+	line-height: 22px;
+ 	}
+
 }
 
 @media (max-width: 420px) {
@@ -2056,6 +2427,10 @@ input[type="password"] {
 	padding: 15px;
 	}
 
+.form-main { 
+	padding: 15px;
+	}
+
 .location__form-main { 
 	padding: 15px;
 	}
@@ -2100,6 +2475,10 @@ input[type="password"] {
 
 .info-panel__text { 
 	line-height: 18px;
+	}
+
+.types-payment__item { 
+	padding: 20px;
 	}
 
 }
@@ -2201,6 +2580,26 @@ input[type="password"] {
 .calculation__title { 
 	font-size: 20px;
 	line-height: 26px;
+	}
+
+.form-main__title { 
+	margin: 0 0 20px;
+	font-size: 22px;
+	line-height: 30px;
+	}
+
+.product-catalog__item { 
+	padding: 15px;
+	}
+
+.btn_more-icon { 
+	padding: 22px 55px 22px 25px;
+	}
+
+.btn_more-icon:after {
+	width: 18px;
+	height: 18px; 
+	right: 20px;
 	}
 
 }

@@ -398,7 +398,7 @@ body {
 /* parts-supply */
 .parts-supply { 
   margin: 0 auto;
-  padding: 88px 260px 100px;
+  padding: 88px 0 100px;
   max-width: 1720px;
   background: url(../img/src/parts-supply-img-1.webp) center no-repeat;
   background-size: cover;
