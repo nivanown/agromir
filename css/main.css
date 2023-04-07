@@ -1380,10 +1380,6 @@ input[type='password']::-webkit-input-placeholder {
   padding: 120px 0;
   }
 
-.spare-parts_indent-bottom-big { 
-  padding-bottom: 120px;
-  }
-
 .spare-parts__title { 
   display: flex;
   justify-content: center;
@@ -1395,6 +1391,7 @@ input[type='password']::-webkit-input-placeholder {
   color: #fff;
   font-size: 38px;
   font-weight: 500;
+  text-align: center;
   line-height: 48px;
   background: #f58f0b;
   border-radius: 16px;
@@ -1824,6 +1821,17 @@ input[type='password']::-webkit-input-placeholder {
   width: 100%;
   }
 
+/* cursor-icon */
+.cursor-icon {
+  display: none;
+  margin: 0 auto 30px; 
+  width: 42px;
+  }
+
+.cursor-icon img { 
+  width: 100%;
+  }
+
 /* quality-control */
 .quality-control { 
   padding: 112px 0 120px;
@@ -1862,6 +1870,10 @@ input[type='password']::-webkit-input-placeholder {
   max-width: 1200px;
   background: #fff;
   border-radius: 40px;
+  }
+
+.warranty_indent-bottom-none { 
+  margin-bottom: 0;
   }
 
 .warranty__item { 
@@ -2106,6 +2118,7 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .info-small-panel__icon { 
+  flex-shrink: 0;
   margin: 0 20px 0 0;
   width: 31px;
   }
@@ -2666,7 +2679,9 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .address__img { 
+  flex-shrink: 0;
   margin: 0 16px 0 0;
+  width: 68px;
   }
 
 .address__img img { 
@@ -2937,6 +2952,7 @@ input[type='password']::-webkit-input-placeholder {
 
 .bread-crumbs ul { 
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 5px 5px;
   list-style: none;
