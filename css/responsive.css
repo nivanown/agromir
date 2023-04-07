@@ -20,6 +20,10 @@
 	border-radius: 0;
 	}
 
+.parts-supply { 
+	border-radius: 0;
+	}
+
 }
 
 @media (max-width: 1600px) {
@@ -143,6 +147,23 @@
 }
 
 @media (max-width: 1200px) {
+
+.parts-supply {
+	padding: 50px 0;
+	}
+
+.parts-supply__title { 
+	font-size: 46px;
+	line-height: 60px;
+	}
+
+.parts-supply__subtitle { 
+	font-size: 30px;
+	}
+
+.parts-supply__advantages { 
+	gap: 0 30px;
+	}
 
 .reviews { 
 	padding: 50px 15px;
@@ -1802,8 +1823,10 @@ input[type="password"] {
 	}
 
 .hystmodal .hystmodal__close { 
-	top: 10px;
-	right: 10px;
+	width: 14px;
+	height: 14px;
+	top: 8px;
+	right: 8px;
 	background: url(../img/bg/close-icon-orange.svg) center no-repeat;
   	background-size: 100%;
 	}
