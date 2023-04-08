@@ -1629,6 +1629,14 @@ p {
 	z-index: 5;
 	}
 
+.btn_arrow-right-icon:after { 
+	position: static;
+	display: inline-block;
+	margin: 0 0 0 10px;
+	vertical-align: middle;
+	transform: translate(0);
+	} 
+
 }
 
 @media (max-width: 767px) {
