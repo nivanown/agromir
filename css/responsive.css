@@ -1659,6 +1659,7 @@ p {
 
 .success__form { 
 	margin: 0 0 30px;
+	max-width: 100%;
 	}
 
 .success__manager { 
