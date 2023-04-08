@@ -1629,6 +1629,10 @@ p {
 	z-index: 5;
 	}
 
+.btn_arrow-right-icon { 
+	padding: 26px 25px;
+	}
+
 .btn_arrow-right-icon:after { 
 	position: static;
 	display: inline-block;
@@ -1636,6 +1640,14 @@ p {
 	vertical-align: middle;
 	transform: translate(0);
 	} 
+
+.btn_calculator-icon { 
+	padding: 14px 25px;
+	}
+
+.btn_calculator-icon:before { 
+	display: none;
+	}
 
 }
 
@@ -1699,21 +1711,12 @@ input[type="password"] {
 	line-height: 24px;
 	}
 
-.btn_calculator-icon { 
-	padding-left: 70px;
-	}
-
 .btn_pdf-icon { 
 	padding-left: 70px;
 	}
 
 .btn_pdf-icon:before { 
 	left: 20px;
-	}
-
-.btn_calculator-icon:before { 
-	width: 60px;
-	height: 43px;
 	}
 
 .btn_cursor-icon { 
@@ -1769,11 +1772,7 @@ input[type="password"] {
 	}
 
 .btn_arrow-right-icon { 
-	padding: 26px 70px 26px 25px;
-	}
-
-.btn_arrow-right-icon:after { 
-	right: 20px;
+	padding: 26px 25px;
 	}
 
 .callback__description { 
@@ -2776,6 +2775,10 @@ input[type="tel"], input[type="text"], input[type="email"], input[type="password
 	line-height: 24px;
 	}
 
+.btn_arrow-right-icon { 
+	padding: 23px 25px;
+	}
+
 }
 
 @media (max-width: 370px) {
@@ -2827,11 +2830,6 @@ input[type="tel"], input[type="text"], input[type="email"], input[type="password
 .reminder span { 
 	font-size: 14px;
 	line-height: 20px;
-	}
-
-.btn_arrow-right-icon { 
-	padding: 26px 25px;
-	width: 100%;
 	}
 
 .btn_arrow-right-icon:after { 
