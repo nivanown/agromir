@@ -157,6 +157,26 @@
 	padding-top: 20px;
 	}
 
+.hystmodal .contacts { 
+	justify-content: space-between;
+	gap: 0;
+	}
+
+.hystmodal .contacts__phone { 
+	font-size: 20px;
+	line-height: 24px;
+	}
+
+.hystmodal .contacts__mail { 
+	font-size: 20px;
+	line-height: 24px;
+	}
+
+.hystmodal .contacts p { 
+	font-size: 16px;
+	line-height: 24px;
+	}
+
 }
 
 @media (max-width: 1200px) {
@@ -1484,6 +1504,13 @@ p {
 	line-height: 24px;
 	}
 
+.hystmodal .contacts { 
+	flex-direction: column;
+	gap: 30px 0;
+	margin: 0 auto;
+	max-width: 280px;
+	}
+
 }
 
 @media (max-width: 850px) {
@@ -1990,13 +2017,6 @@ input[type="password"] {
 }
 
 @media (max-width: 680px) {
-
-.contacts { 
-	flex-direction: column;
-	gap: 30px 0;
-	margin: 0 auto;
-	max-width: 280px;
-	}
 
 .doc-panel { 
 	flex-wrap: wrap;

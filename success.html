@@ -315,7 +315,7 @@
                 <div class="location__container">
                     <div class="location__col">
                         <div class="location__map">
-                            <div id="map-2"></div>
+                            <div id="map-2" class="map"></div>
                         </div>
                     </div> 
                 </div>
@@ -370,6 +370,9 @@
                             <a href="#" class="shipment__btn btn" data-hystmodal="#catalog-form">Получить каталог моделей<br> из складской программы</a>
                         </div>
                     </div>
+                    <div class="cursor-icon">
+                        <img src="img/bg/cursor.svg" alt="cursor">
+                    </div>
                     <div class="types-delivery types-delivery_indent-bottom-none">
                         <div class="types-delivery__item">
                             <div class="types-delivery__icon">
@@ -418,13 +421,13 @@
                         <div class="callback__form">
                             <form>
                                 <fieldset>
-                                    <input type="tel" name="phone" placeholder="Введите ваш телефон">
+                                    <input type="tel" name="phone" placeholder="Введите ваш телефон" value="+7 (111) 111-11-11">
                                 </fieldset>
                                 <fieldset>
                                     <h3 class="callback__small-title small-title">Выберите способ связи:</h3>
                                     <div class="sending-method">
                                         <div class="sending-method__item">
-                                            <input id="sms-3" type="radio" name="method-3" checked="checked">
+                                            <input id="sms-3" type="radio" name="method-3" checked="checked" value="sms">
                                             <label for="sms-3">
                                                 <span class="sending-method__icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 15 24"><g><g><path fill="#fff" d="M4.102.57h6.232c.042.016.082.034.124.04 2.211.294 3.874 2.15 3.879 4.375.01 4.662.008 9.323 0 13.983a4.405 4.405 0 0 1-2.83 4.103c-.376.145-.781.21-1.173.312H4.102c-.042-.012-.082-.03-.124-.037C1.779 23.056.105 21.2.1 18.994.088 14.315.09 9.641.099 4.965.103 3.105 1.318 1.43 3.074.828 3.407.716 3.759.655 4.102.57zM1.876 11.977v6.86c0 1.603 1.161 2.765 2.764 2.765 1.713.005 3.427.005 5.14 0 1.62 0 2.78-1.156 2.78-2.774V5.131c0-1.62-1.157-2.777-2.775-2.778H4.667c-1.636.001-2.79 1.15-2.79 2.784l-.001 6.84zM7.219 5.92c-.296 0-.592.003-.888-.002-.506-.01-.892-.398-.893-.887 0-.495.385-.887.89-.894a68.569 68.569 0 0 1 1.777 0 .884.884 0 0 1 .893.89.889.889 0 0 1-.89.891c-.296.005-.592.002-.889.002zm.01 12.117c.288 0 .577-.001.866.005.518.006.908.398.903.896-.005.493-.392.875-.902.88-.585.008-1.17.008-1.755 0-.518-.005-.908-.398-.903-.895.005-.496.393-.875.901-.881.297-.006.593-.005.89-.005z"/></g></g></svg>
@@ -433,7 +436,7 @@
                                             </label>
                                         </div>
                                         <div class="sending-method__item">
-                                            <input id="whatsapp-3" type="radio" name="method-3">
+                                            <input id="whatsapp-3" type="radio" name="method-3" value="whatsapp">
                                             <label for="whatsapp-3">
                                                 <span class="sending-method__icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><g><g><path fill="#fff" d="M22.653 11.646c-.002 6.02-4.921 10.916-10.964 10.916h-.005a10.996 10.996 0 0 1-5.24-1.33L.633 22.754l1.555-5.662a10.847 10.847 0 0 1-1.463-5.455C.726 5.617 5.644.724 11.689.724c2.933 0 5.686 1.136 7.756 3.199a10.828 10.828 0 0 1 3.208 7.723zm-1.851 0a9.003 9.003 0 0 0-2.667-6.418 9.064 9.064 0 0 0-6.443-2.662c-5.027 0-9.115 4.066-9.117 9.07 0 1.715.481 3.384 1.393 4.832l.217.34-.92 3.35 3.449-.901.332.198a9.148 9.148 0 0 0 4.639 1.265h.004c5.023 0 9.11-4.07 9.113-9.074zm-3.59 2.594c.069.115.069.66-.16 1.302-.228.632-1.322 1.219-1.849 1.299-.472.067-1.069.092-1.725-.113a14.934 14.934 0 0 1-1.562-.578c-2.748-1.18-4.543-3.935-4.68-4.116-.137-.18-1.119-1.476-1.119-2.818 0-1.35.708-1.999.959-2.278.251-.275.548-.344.73-.344.183 0 .366.005.526.01.168.012.394-.058.616.469.228.545.776 1.89.845 2.028.068.135.114.294.023.476-.092.182-.389.568-.685.931-.122.152-.28.286-.12.56.16.274.71 1.164 1.524 1.89 1.046.928 1.929 1.215 2.203 1.353.274.135.433.113.593-.07.16-.18.685-.793.868-1.07.182-.273.365-.225.616-.136.252.09 1.599.75 1.872.889.274.137.457.203.525.316z"/></g></g></svg>
@@ -447,13 +450,13 @@
                                     <h3 class="callback__small-title small-title">Выберите время звонка:</h3>
                                     <div class="sending-method">
                                         <div class="sending-method__item">
-                                            <input id="now" type="radio" name="timing" checked="checked">
+                                            <input id="now" type="radio" name="timing" checked="checked" value="now">
                                             <label for="now">
                                                 <span class="sending-method__text">Сейчас</span>
                                             </label>
                                         </div>
                                         <div class="sending-method__item">
-                                            <input id="by-time" type="radio" name="timing">
+                                            <input id="by-time" type="radio" name="timing" value="by-time">
                                             <label for="by-time">
                                                 <span class="sending-method__text">По времени</span>
                                             </label>
@@ -462,14 +465,14 @@
                                 </fieldset>
                                 <fieldset>
                                     <h3 class="callback__small-title small-title">Когда вам удобно принять звонок?</h3>
-                                    <input class="input-disabled" type="text" name="time" placeholder="Например, завтра в 12:00" disabled>
+                                    <input class="input-disabled" type="text" name="time" placeholder="Например, завтра в 12:00" value="завтра в 12:00">
                                 </fieldset>
                                 <fieldset>
                                     <button class="callback__btn btn" type="submit">Заказать обратный звонок</button>
                                 </fieldset>
                                 <fieldset>
                                     <div class="detail__checkbox checkbox">
-                                        <input id="accept-8" type="checkbox" checked="checked">
+                                        <input id="accept-8" type="checkbox" checked="checked" required="required">
                                         <label for="accept-8">Я принимаю <a href="#" data-hystmodal="#privacy-policy">политику конфиденциальности</a></label>
                                     </div>
                                 </fieldset>
@@ -490,20 +493,20 @@
                 <div class="hystmodal__styled">
                     <div class="form-promo form-promo_changed">
                         <div class="form-promo__top-col">
-                            <h2 class="form-promo__title form-promo__title_indent-bottom-small"><strong>Получите расчет стоимости</strong> и сроков доставки<br> в течение 30 минут</h2>
+                            <h2 class="form-promo__title form-promo__title_indent-bottom-small"><strong>Заполните форму ниже,</strong> чтобы получить доступ<br> к каталогу двигателей для МТЗ <span>+ скидку до 10%,</span></h2>
                             <p class="form-promo__text">
-                                <strong>Укажите, по какому номеру вы хотели бы принять<br> звонок от менеджера</strong>
+                                <strong>которую мы зафиксируем за вашим номером телефона</strong>
                             </p>
                             <form>
                                 <fieldset>
-                                    <input type="tel" name="phone" placeholder="Введите ваш телефон">
+                                    <input type="tel" name="phone" placeholder="Введите ваш телефон" value="+7 (111) 111-11-11">
                                 </fieldset>
                                 <fieldset>
                                     <button class="form-promo__btn btn" type="submit">Получить расчет стоимости<br> и сроков доставки</button>
                                 </fieldset>
                                 <fieldset>
                                     <div class="form-promo__checkbox checkbox">
-                                        <input id="accept-9" type="checkbox" checked="checked">
+                                        <input id="accept-9" type="checkbox" checked="checked" required="required">
                                         <label for="accept-9">Я принимаю <a href="#" data-hystmodal="#privacy-policy">политику конфиденциальности</a></label>
                                     </div>
                                 </fieldset>
@@ -539,6 +542,120 @@
     </div>
     <!-- catalog-form modal end -->
 
+    <!-- cost-calculation modal Start -->
+    <div id="cost-calculation" class="hystmodal center-modal" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <button class="hystmodal__close" data-hystclose>Закрыть</button>
+                <div class="hystmodal__styled">
+                    <div class="form-promo form-promo_changed">
+                        <div class="form-promo__top-col">
+                            <h2 class="form-promo__title form-promo__title_indent-bottom-small"><strong>Получите расчет стоимости</strong> и сроков доставки<br> в течение 30 минут</h2>
+                            <p class="form-promo__text">
+                                <strong>Укажите, по какому номеру вы хотели бы принять<br> звонок от менеджера</strong>
+                            </p>
+                            <form>
+                                <fieldset>
+                                    <input type="tel" name="phone" placeholder="Введите ваш телефон" value="+7 (111) 111-11-11">
+                                </fieldset>
+                                <fieldset>
+                                    <button class="form-promo__btn btn" type="submit">Получить расчет стоимости<br> и сроков доставки</button>
+                                </fieldset>
+                                <fieldset>
+                                    <div class="form-promo__checkbox checkbox">
+                                        <input id="accept-21" type="checkbox" checked="checked" required="required">
+                                        <label for="accept-21">Я принимаю <a href="#" data-hystmodal="#privacy-policy">политику конфиденциальности</a></label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="form-promo__bottom-col">
+                            <dl class="form-promo__contacts">
+                                <dt>Контакты компании:</dt>
+                                <dd>
+                                    <a href="tel:8 (927) 728-63-56">
+                                        <img src="img/bg/phone-icon.svg" alt="icon">
+                                        <span>8 (927) 728-63-56</span>
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="mailto:agromir716@mail.ru">
+                                        <img src="img/bg/mail-icon.svg" alt="icon">
+                                        <span>agromir716@mail.ru</span>
+                                    </a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="form-promo__img form-promo__img_changed">
+                            <picture>
+                                <source srcset="img/src/catalog.webp" type="image/webp">
+                                <img src="img/src/catalog.png" alt="photo">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cost-calculation modal end -->
+
+    <!-- consultation modal Start -->
+    <div id="consultation" class="hystmodal center-modal" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <button class="hystmodal__close" data-hystclose>Закрыть</button>
+                <div class="hystmodal__styled">
+                    <div class="form-promo form-promo_changed">
+                        <div class="form-promo__top-col">
+                            <h2 class="form-promo__title form-promo__title_indent-bottom-small"><strong>Получите консультацию</strong> по условиям оплаты от менеджера компании Агромир в течение 30 минут</h2>
+                            <p class="form-promo__text">
+                                <strong>Укажите, по какому номеру вы хотели бы<br> принять звонок от менеджера</strong>
+                            </p>
+                            <form>
+                                <fieldset>
+                                    <input type="tel" name="phone" placeholder="Введите ваш телефон" value="+7 (111) 111-11-11">
+                                </fieldset>
+                                <fieldset>
+                                    <button class="form-promo__btn btn" type="submit">Получить консультацию<br> по условиям оплаты</button>
+                                </fieldset>
+                                <fieldset>
+                                    <div class="form-promo__checkbox checkbox">
+                                        <input id="accept-22" type="checkbox" checked="checked" required="required">
+                                        <label for="accept-22">Я принимаю <a href="#" data-hystmodal="#privacy-policy">политику конфиденциальности</a></label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="form-promo__bottom-col">
+                            <dl class="form-promo__contacts">
+                                <dt>Контакты компании:</dt>
+                                <dd>
+                                    <a href="tel:8 (927) 728-63-56">
+                                        <img src="img/bg/phone-icon.svg" alt="icon">
+                                        <span>8 (927) 728-63-56</span>
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="mailto:agromir716@mail.ru">
+                                        <img src="img/bg/mail-icon.svg" alt="icon">
+                                        <span>agromir716@mail.ru</span>
+                                    </a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="form-promo__img form-promo__img_changed">
+                            <picture>
+                                <source srcset="img/src/catalog.webp" type="image/webp">
+                                <img src="img/src/catalog.png" alt="photo">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- consultation modal end -->
+
     <!-- promo-code modal Start -->
     <div id="promo-code" class="hystmodal center-modal" aria-hidden="true">
         <div class="hystmodal__wrap">
@@ -557,7 +674,7 @@
                                     <h3 class="promo-code__small-title small-title">Куда вам удобнее получить промокод?</h3>
                                     <div class="sending-method">
                                         <div class="sending-method__item">
-                                            <input id="sms-4" type="radio" name="method-3" checked="checked">
+                                            <input id="sms-4" type="radio" name="method-3" checked="checked" value="sms">
                                             <label for="sms-4">
                                                 <span class="sending-method__icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 15 24"><g><g><path fill="#fff" d="M4.102.57h6.232c.042.016.082.034.124.04 2.211.294 3.874 2.15 3.879 4.375.01 4.662.008 9.323 0 13.983a4.405 4.405 0 0 1-2.83 4.103c-.376.145-.781.21-1.173.312H4.102c-.042-.012-.082-.03-.124-.037C1.779 23.056.105 21.2.1 18.994.088 14.315.09 9.641.099 4.965.103 3.105 1.318 1.43 3.074.828 3.407.716 3.759.655 4.102.57zM1.876 11.977v6.86c0 1.603 1.161 2.765 2.764 2.765 1.713.005 3.427.005 5.14 0 1.62 0 2.78-1.156 2.78-2.774V5.131c0-1.62-1.157-2.777-2.775-2.778H4.667c-1.636.001-2.79 1.15-2.79 2.784l-.001 6.84zM7.219 5.92c-.296 0-.592.003-.888-.002-.506-.01-.892-.398-.893-.887 0-.495.385-.887.89-.894a68.569 68.569 0 0 1 1.777 0 .884.884 0 0 1 .893.89.889.889 0 0 1-.89.891c-.296.005-.592.002-.889.002zm.01 12.117c.288 0 .577-.001.866.005.518.006.908.398.903.896-.005.493-.392.875-.902.88-.585.008-1.17.008-1.755 0-.518-.005-.908-.398-.903-.895.005-.496.393-.875.901-.881.297-.006.593-.005.89-.005z"></path></g></g></svg>
@@ -566,7 +683,7 @@
                                             </label>
                                         </div>
                                         <div class="sending-method__item">
-                                            <input id="whatsapp-4" type="radio" name="method-3">
+                                            <input id="whatsapp-4" type="radio" name="method-3" value="whatsapp">
                                             <label for="whatsapp-4">
                                                 <span class="sending-method__icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><g><g><path fill="#fff" d="M22.653 11.646c-.002 6.02-4.921 10.916-10.964 10.916h-.005a10.996 10.996 0 0 1-5.24-1.33L.633 22.754l1.555-5.662a10.847 10.847 0 0 1-1.463-5.455C.726 5.617 5.644.724 11.689.724c2.933 0 5.686 1.136 7.756 3.199a10.828 10.828 0 0 1 3.208 7.723zm-1.851 0a9.003 9.003 0 0 0-2.667-6.418 9.064 9.064 0 0 0-6.443-2.662c-5.027 0-9.115 4.066-9.117 9.07 0 1.715.481 3.384 1.393 4.832l.217.34-.92 3.35 3.449-.901.332.198a9.148 9.148 0 0 0 4.639 1.265h.004c5.023 0 9.11-4.07 9.113-9.074zm-3.59 2.594c.069.115.069.66-.16 1.302-.228.632-1.322 1.219-1.849 1.299-.472.067-1.069.092-1.725-.113a14.934 14.934 0 0 1-1.562-.578c-2.748-1.18-4.543-3.935-4.68-4.116-.137-.18-1.119-1.476-1.119-2.818 0-1.35.708-1.999.959-2.278.251-.275.548-.344.73-.344.183 0 .366.005.526.01.168.012.394-.058.616.469.228.545.776 1.89.845 2.028.068.135.114.294.023.476-.092.182-.389.568-.685.931-.122.152-.28.286-.12.56.16.274.71 1.164 1.524 1.89 1.046.928 1.929 1.215 2.203 1.353.274.135.433.113.593-.07.16-.18.685-.793.868-1.07.182-.273.365-.225.616-.136.252.09 1.599.75 1.872.889.274.137.457.203.525.316z"></path></g></g></svg>
@@ -577,14 +694,14 @@
                                     </div>
                                 </fieldset>
                                 <fieldset>
-                                    <input type="tel" name="phone" placeholder="Введите ваш телефон">
+                                    <input type="tel" name="phone" placeholder="Введите ваш телефон" value="+7 (111) 111-11-11">
                                 </fieldset>
                                 <fieldset>
                                     <button class="promo-code__btn btn" type="submit">Получить подарки</button>
                                 </fieldset>
                                 <fieldset>
                                     <div class="promo-code____checkbox checkbox">
-                                        <input id="accept-10" type="checkbox" checked="checked">
+                                        <input id="accept-10" type="checkbox" checked="checked" required="required">
                                         <label for="accept-10">Я принимаю <a href="#" data-hystmodal="#privacy-policy">политику конфиденциальности</a></label>
                                     </div>
                                 </fieldset>
@@ -615,6 +732,59 @@
                     <p>Сайт использует личную информацию Пользователя для обслуживания и для улучшения качества предоставляемых услуг. Часть персональной информации может быть предоставлена банку или платежной системе, в случае, если предоставление этой информации обусловлено процедурой перевода средств платежной системе, услугами которой Пользователь желает воспользоваться.</p>
                     <p>Сайт прилагает все усилия для сбережения в сохранности личных данных Пользователя. Личная информация может быть раскрыта в случаях, описанных законодательством, либо когда администрация сочтет подобные действия необходимыми для соблюдения юридической процедуры, судебного распоряжения или легального процесса необходимого для работы Пользователя с Сайтом.</p>
                     <p>В других случаях, ни при каких условиях, информация, которую Пользователь передает Сайту, не будет раскрыта третьим лицам.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- privacy policy modal end -->
+
+    <!-- view-map modal Start -->
+    <div id="view-map" class="hystmodal center-modal" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <button class="hystmodal__close" data-hystclose>Закрыть</button>
+                <div class="hystmodal__styled">
+                    <div class="office-info">
+                        <h2 class="office-info__main-title title-main">Приезжайте на индивидуальный показ<br> выставочных образцов в офис компании Агромир</h2>
+                        <dl class="office-info__time">
+                            <dt>Время работы:</dt>
+                            <dd>Пн-Сб с 8:30 до 17:00</dd>
+                        </dl>
+                        <div class="office-info__contacts contacts">
+                            <div class="contacts__item">
+                                <div class="contacts__icon">
+                                    <img src="img/bg/contacts-icon-1.svg" alt="icon">
+                                </div>
+                                <div class="contacts__description">
+                                    <h3 class="contacts__title">Адрес офиса и склада</h3>
+                                    <p>г. Набережные Челны, Казанский<br> проспект, 215/1, офис 201</p>
+                                </div>
+                            </div>
+                            <div class="contacts__item">
+                                <div class="contacts__icon">
+                                    <img src="img/bg/contacts-icon-2.svg" alt="icon">
+                                </div>
+                                <div class="contacts__description">
+                                    <h3 class="contacts__title">Телефон</h3>
+                                    <span class="contacts__phone">
+                                        <a href="tel:+7 927 728-63-56">+7 927 728-63-56</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="contacts__item">
+                                <div class="contacts__icon">
+                                    <img src="img/bg/contacts-icon-3.svg" alt="icon">
+                                </div>
+                                <div class="contacts__description">
+                                    <h3 class="contacts__title">E-mail</h3>
+                                    <span class="contacts__mail">
+                                        <a href="mailto:agromir716@mail.ru">agromir716@mail.ru</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="map-2" class="map"></div>
+                    </div>
                 </div>
             </div>
         </div>

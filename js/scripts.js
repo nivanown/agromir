@@ -116,7 +116,6 @@ if (document.getElementById('map')) {
     ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
         center: [55.688110704443865,52.358245962982046],
-        //center: [55.68814706904127,52.355692499999904],
         zoom: 17,
         controls: [],
     }, {
@@ -150,11 +149,10 @@ if (document.getElementById('map')) {
 }
 
 /*- Карта YANDEX-map -*/
-if (document.getElementById('map2')) {
+if (document.getElementById('map-2')) {
     ymaps.ready(function () {
-    var myMap2 = new ymaps.Map('map2', {
-        center: [55.688110704443865,52.358245962982046],
-        //center: [55.68814706904127,52.355692499999904],
+    var myMap2 = new ymaps.Map('map-2', {
+        center: [55.68814706904127,52.355692499999904],
         zoom: 17,
         controls: [],
     }, {
