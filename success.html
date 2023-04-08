@@ -78,7 +78,7 @@
                                         <input type="tel" name="phone" value="+7 999 610-77-89">
                                     </fieldset>
                                     <fieldset>
-                                        <button class="success__btn btn" type="submit">Нашел ошибку в номере,<br> хочу ввести корректный</button>
+                                        <button class="success__btn btn" type="submit" data-hystmodal="#callback">Нашел ошибку в номере,<br> хочу ввести корректный</button>
                                     </fieldset>
                                 </form>
                             </div>
@@ -315,7 +315,7 @@
                 <div class="location__container">
                     <div class="location__col">
                         <div class="location__map">
-                            <div id="map"></div>
+                            <div id="map-2"></div>
                         </div>
                     </div> 
                 </div>
@@ -632,44 +632,6 @@
 
     <!-- Scripts -->
     <script type="text/javascript" src="js/scripts.js"></script>
-    <script type="text/javascript">
-        /*- Карта YANDEX-map -*/
-        if (document.getElementById('map')) {
-            ymaps.ready(function () {
-            var myMap = new ymaps.Map('map', {
-                center: [55.68814706904127,52.355692499999904],
-                zoom: 17,
-                controls: [],
-            }, {
-                suppressMapOpenBlock: true
-            }),
-            destinations = {
-                'Офис': [55.68814706904127,52.355692499999904]
-            },
-            myPlacemark = new ymaps.Placemark(destinations['Офис'], {
-                hintContent: 'Казанский проспект, 215/1',
-                balloonContent: 'г. Набережные Челны, Казанский проспект, 215/1, офис 201'
-            }, {
-                // Опции.
-                // Необходимо указать данный тип макета.
-                iconLayout: 'default#image',
-                // Своё изображение иконки метки.
-                iconImageHref: 'img/bg/map.svg',
-                // Размеры метки.
-                iconImageSize: [60, 68],
-                // Смещение левого верхнего угла иконки относительно
-                // её "ножки" (точки привязки).
-                iconImageOffset: [-10, -80]
-            })
-            myMap.geoObjects
-                .add(myPlacemark)
-            myMap.behaviors.disable('scrollZoom');
-            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                myMap.behaviors.disable('drag');
-            }
-          });
-        }   
-    </script>
 
 </body>
 
