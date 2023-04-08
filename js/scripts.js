@@ -150,9 +150,9 @@ if (document.getElementById('map')) {
 }
 
 /*- Карта YANDEX-map -*/
-if (document.getElementById('map-2')) {
+if (document.getElementById('map2')) {
     ymaps.ready(function () {
-    var myMap = new ymaps.Map('map', {
+    var myMap2 = new ymaps.Map('map2', {
         center: [55.688110704443865,52.358245962982046],
         //center: [55.68814706904127,52.355692499999904],
         zoom: 17,
@@ -163,7 +163,7 @@ if (document.getElementById('map-2')) {
     destinations = {
         'Офис': [55.68814706904127,52.355692499999904]
     },
-    myPlacemark = new ymaps.Placemark(destinations['Офис'], {
+    myPlacemark2 = new ymaps.Placemark(destinations['Офис'], {
         hintContent: 'Казанский проспект, 215/1',
         balloonContent: 'г. Набережные Челны, Казанский проспект, 215/1, офис 201'
     }, {
@@ -178,11 +178,11 @@ if (document.getElementById('map-2')) {
         // её "ножки" (точки привязки).
         iconImageOffset: [-10, -80]
     })
-    myMap.geoObjects
-        .add(myPlacemark)
-    myMap.behaviors.disable('scrollZoom');
+    myMap2.geoObjects
+        .add(myPlacemark2)
+    myMap2.behaviors.disable('scrollZoom');
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        myMap.behaviors.disable('drag');
+        myMap2.behaviors.disable('drag');
     }
   });
 }   
