@@ -207,7 +207,7 @@ if ($("#promo-code")) {
     });
     $('.hystmodal__close').click(function (e) {
       if (e.target.closest('.hystmodal').id == 'promo-code') {
-        myModal.close('#promo-code');
+        $('#promo-code').remove();
       }
     });
   }
