@@ -1129,6 +1129,22 @@ input[type='password']::-webkit-input-placeholder {
   justify-content: flex-end;
   }
 
+/* reviews-slider */
+.reviews-slider { 
+  margin: 0 auto 60px;
+  max-width: 700px;
+  }
+
+.reviews-slider__img { 
+  width: 100%;
+  }
+
+.reviews-slider__btn-panel { 
+  display: flex;
+  justify-content: center;
+  padding: 28px 0 0;
+  }
+
 /* cost-calculation */
 .cost-calculation { 
   position: relative;
@@ -1280,10 +1296,6 @@ input[type='password']::-webkit-input-placeholder {
   border: 1px solid rgba(255, 255, 255, 0.3);
   }
 
-.sending-method_indent-right { 
-  margin: 0 55px 0 0;
-  }
-
 .sending-method__item { 
   position: relative;
   width: 50%;
@@ -1426,6 +1438,12 @@ input[type='password']::-webkit-input-placeholder {
   align-items: center;
   margin: 0 0 32px;
   height: 200px;
+  }
+
+.catalog__photo img { 
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   }
 
 .catalog_four-col .catalog__photo { 
@@ -2997,12 +3015,9 @@ input[type='password']::-webkit-input-placeholder {
   }
 
 .detail__photo { 
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-shrink: 0;
   margin: 0 50px 0 0;
-  padding: 44px;
+  padding: 20px;
   width: 600px;
   height: 380px;
   background: #fff;
@@ -3011,6 +3026,9 @@ input[type='password']::-webkit-input-placeholder {
 
 .detail__photo img { 
   width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 30px;
   }
 
 .detail__description { 

@@ -50,8 +50,19 @@ tabs.forEach(tab => {
     })
 })
 
-/*- letters__slider -*/
+/*- tabs__slider -*/
 var swiper = new Swiper('.tabs__slider .swiper', {
+    autoHeight: true,
+    spaceBetween: 20,
+    loop: true,
+    navigation: {
+        nextEl: '.letters__slider .swiper-button-next, .tabs__btn',
+        prevEl: '.letters__slider .swiper-button-prev',
+    },
+});
+
+/*- reviews-slider -*/
+var swiper = new Swiper('.reviews-slider .swiper', {
     autoHeight: true,
     spaceBetween: 20,
     loop: true,
