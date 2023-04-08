@@ -205,5 +205,10 @@ if ($("#promo-code")) {
         document.cookie = "alertwin=no; path=/; expires=" + date.toUTCString();
       }
     });
+    $('.hystmodal__close').click(function (e) {
+      if (e.target.closest('.hystmodal').id == 'promo-code') {
+        myModal.close('#promo-code');
+      }
+    });
   }
 }

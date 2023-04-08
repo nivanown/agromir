@@ -1058,7 +1058,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	backdrop-filter: blur(3px);
+	backdrop-filter: blur(5px);
 	background: rgba(0, 0, 0, 0.2);
 	content: "";
 	}
@@ -1288,7 +1288,7 @@ p {
 	max-width: 100%;
 	}
 
-.contacts { 
+.hystmodal .contacts { 
 	gap: 0 15px;
 	}
 
@@ -1304,6 +1304,16 @@ p {
 	}
 
 .contacts__mail { 
+	font-size: 16px;
+	line-height: 20px;
+	}
+
+.hystmodal .contacts__phone { 
+	font-size: 16px;
+	line-height: 20px;
+	}
+
+.hystmodal .contacts__mail { 
 	font-size: 16px;
 	line-height: 20px;
 	}
@@ -1505,10 +1515,10 @@ p {
 	}
 
 .hystmodal .contacts { 
-	flex-direction: column;
-	gap: 30px 0;
-	margin: 0 auto;
-	max-width: 280px;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px 30px;
+	margin: 0 0 50px;
 	}
 
 }
@@ -1529,7 +1539,7 @@ p {
 	left: 0;
 	background: rgba(0, 0, 0, 0.3);
 	border-radius: 30px;
-	backdrop-filter: blur(3px);
+	backdrop-filter: blur(5px);
 	content: "";
 	}
 
@@ -1557,7 +1567,7 @@ p {
 	left: 0;
 	background: rgba(0, 0, 0, 0.3);
 	border-radius: 30px;
-	backdrop-filter: blur(3px);
+	backdrop-filter: blur(5px);
 	content: "";
 	}
 
@@ -1588,6 +1598,11 @@ p {
 
 .letters__photo { 
 	margin: 0 auto 30px;
+	}
+
+.contacts { 
+	flex-wrap: wrap;
+	gap: 30px 30px;
 	}
 
 }
@@ -1646,7 +1661,7 @@ p {
 	height: 100%;
 	top: 0;
 	left: 0;
-	backdrop-filter: blur(3px);
+	backdrop-filter: blur(5px);
 	background: rgba(0, 0, 0, 0.3);
 	content: "";
 	}
@@ -1684,6 +1699,28 @@ p {
 	position: static;
 	display: inline-block;
 	margin: 0 0 0 10px;
+	vertical-align: middle;
+	transform: translate(0);
+	}
+
+.product-catalog__photo { 
+	margin: 0 0 30px;
+	height: 120px;
+	}
+
+.question__panel { 
+	flex-direction: column;
+	gap: 30px 0;
+	}
+
+.btn_whatsapp-icon {
+	padding: 20px 35px;
+	}
+
+.btn_whatsapp-icon:before { 
+	position: static;
+	display: inline-block;
+	margin: -2px 10px 0 0;
 	vertical-align: middle;
 	transform: translate(0);
 	}
@@ -1750,6 +1787,16 @@ input[type="password"] {
 	line-height: 24px;
 	}
 
+.product-catalog__form { 
+	margin: 0 0 15px;
+	}
+
+.product-catalog__btn { 
+	padding: 10px 15px;
+	font-size: 14px;
+	line-height: 20px;
+	}
+
 .btn_pdf-icon { 
 	padding-left: 70px;
 	}
@@ -1799,7 +1846,7 @@ input[type="password"] {
 	}
 
 .btn_whatsapp-icon { 
-	padding: 26px 25px 26px 60px;
+	padding: 20px 25px;
 	}
 
 .btn_whatsapp-icon:after { 
@@ -2063,11 +2110,6 @@ input[type="password"] {
 	padding: 0;
 	}
 
-.question__panel { 
-	flex-direction: column;
-	gap: 30px 0;
-	}
-
 .title-main { 
 	margin: 0 0 15px;
 	font-size: 23px;
@@ -2094,6 +2136,9 @@ input[type="password"] {
 	}
 
 .office-info__time { 
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px 10px;
 	font-size: 18px;
 	line-height: 24px;
 	}
@@ -2315,8 +2360,16 @@ input[type="password"] {
 	line-height: 20px;
 	}
 
-.product-catalog { 
-	grid-template-columns: repeat(1, 1fr);
+.link a:after { 
+	bottom: 0;
+	}
+
+.product-catalog__item { 
+	padding: 15px 10px 20px;
+	}
+
+.hystmodal .contacts { 
+	justify-content: flex-start;
 	}
 
 }
@@ -2531,6 +2584,41 @@ input[type="password"] {
 	font-size: 16px;
 	line-height: 22px;
  	}
+
+.contacts { 
+ 	max-width: 100%;
+ 	}
+
+.product-catalog { 
+	gap: 8px 8px;
+	}
+
+.product-catalog input[type="tel"], 
+.product-catalog input[type="text"], 
+.product-catalog input[type="email"], 
+.product-catalog input[type="password"] { 
+	padding: 0 10px;
+	height: 50px;
+	border-radius: 5px;
+ 	}
+
+.product-catalog__title {
+	margin: 0 0 10px;
+	height: 54px; 
+	font-size: 13px;
+	line-height: 18px;
+ 	}
+
+.product-catalog__btn { 
+	padding: 7px 10px;
+	font-size: 12px;
+	line-height: 16px;
+	border-radius: 5px;
+ 	}
+
+.product-catalog .filters__link { 
+	font-size: 12px;
+	}
 
 }
 
@@ -2810,6 +2898,43 @@ input[type="tel"], input[type="text"], input[type="email"], input[type="password
 	padding: 23px 25px;
 	}
 
+.hystmodal .contacts p br { 
+	display: none;
+	}
+
+.consultation-form { 
+	padding: 5px;
+	border-radius: 10px;
+	}
+
+.consultation-form form { 
+	gap: 15px 0;
+	}
+
+.consultation-form__in { 
+	padding: 10px;
+	border-radius: 10px;
+	}
+
+.product-catalog__item { 
+	padding: 10px 5px 15px;
+	border-radius: 5px;
+	}
+
+.product-catalog__photo { 
+	margin: 0 0 10px;
+	height: 80px;
+	}
+
+.product-catalog__form { 
+	margin: 0 0 10px;
+	}
+
+.product-catalog__btn { 
+	padding: 7px 10px;
+	font-size: 12px;
+ 	}
+
 }
 
 @media (max-width: 370px) {
@@ -2868,10 +2993,7 @@ input[type="tel"], input[type="text"], input[type="email"], input[type="password
 	} 
 
 .office-info__time { 
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 10px 10px;
+	margin: 0 0 30px;
 	font-size: 16px;
 	line-height: 20px;
 	}
@@ -2896,6 +3018,28 @@ input[type="tel"], input[type="text"], input[type="email"], input[type="password
 
 .btn_pdf-icon:before { 
 	left: 10px;
+	}
+
+.contacts { 
+	justify-content: flex-start;
+	}
+
+.product-catalog__title { 
+	font-size: 12px;
+ 	}
+
+.product-catalog input[type="tel"], 
+.product-catalog input[type="text"], 
+.product-catalog input[type="email"], 
+.product-catalog input[type="password"] { 
+	height: 40px;
+	font-size: 12px;
+ 	}
+
+.product-catalog__btn { 
+	padding: 7px 5px;
+	font-size: 10px;
+	line-height: 14px;
 	}
 
 }

@@ -749,7 +749,7 @@ input[type='password']::-webkit-input-placeholder {
   padding-left: 83px;
   }
 
-.btn_whatsapp-icon:after { 
+.btn_whatsapp-icon:before { 
   position: absolute;
   display: block;
   width: 25px;
@@ -1658,7 +1658,7 @@ input[type='password']::-webkit-input-placeholder {
 .product-catalog__photo img { 
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   }
 
 .product-catalog__title { 
@@ -1677,6 +1677,10 @@ input[type='password']::-webkit-input-placeholder {
 
 .product-catalog fieldset { 
   margin: 0 0 10px;
+  }
+
+.product-catalog fieldset:last-child { 
+  margin: 0;
   }
 
 .product-catalog input[type="tel"], 
