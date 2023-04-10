@@ -3628,3 +3628,7 @@ button.fancybox-button[disabled],
 button.fancybox-button[disabled]:hover { 
   color: #fff;
   }
+
+.callback__top-panel { 
+  display: none;
+  }
