@@ -212,3 +212,12 @@ if ($("#promo-code")) {
     });
   }
 }
+
+/*- filters -*/
+$('.btn-filters').click(function(e) {
+    $('.filters').addClass('show');
+});
+
+$('.filters__close').click(function(e) {
+    $('.filters').removeClass('show');
+});
